@@ -27,6 +27,7 @@ public class EventPlanningBisTest {
 		assertEquals(24, eventPlanning.getAverageAge());
 		eventPlanning = new EventPlanningBis();
 		assertEquals(0, eventPlanning.getAverageAge());
+
 	}
 
 	@Test
